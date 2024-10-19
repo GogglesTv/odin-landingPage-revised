@@ -12,6 +12,8 @@ section {
   padding-right: 150px;
 }
 
+/* Header Section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -40,6 +42,8 @@ section.hero {
   background-color: #1f2937;
   color: white;
 }
+
+/* Hero Section */
 
 section.hero {
   display: flex;
@@ -90,3 +94,5 @@ div.hero-right {
 div.hero-right > p {
   padding: 75px;
 }
+
+/* Random Information Section */
