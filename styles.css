@@ -6,14 +6,17 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+header,
+section {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 header {
-  background-color: #1f2937;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 75px;
-  padding: 0 200px;
 }
 
 div.header-logo > p {
@@ -29,4 +32,60 @@ div.header-links {
 div.header-links > p {
   font-size: 18px;
   padding: 10px;
+}
+
+header,
+section.hero {
+  background-color: #1f2937;
+  color: white;
+}
+
+section.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.hero > div.hero-left {
+  width: 50%;
+  padding-right: 40px;
+}
+
+div.hero-left > h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+div.hero-left > h1,
+div.hero-left > p {
+  margin-bottom: 10px;
+}
+
+div.hero-left > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+div.hero-left > button {
+  padding: 7px 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+}
+
+div.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  flex: 2;
+}
+
+div.hero-right > p {
+  padding: 75px;
 }
