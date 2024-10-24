@@ -195,3 +195,14 @@ div.action-elements > button {
   border-radius: 5px;
   padding: 0px 30px;
 }
+
+/* FOOTER ELEMENTS */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 12px;
+  padding: 50px 0;
+}
