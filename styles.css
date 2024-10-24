@@ -162,3 +162,36 @@ div.quote-container > p:first-child {
 div.quote-container > p:last-child {
   font-weight: 700;
 }
+
+/* CALL TO ACTION SECTION */
+section.action-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 50px;
+}
+
+div.action-elements {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div.action-left > p:first-child {
+  font-weight: 700;
+}
+
+div.action-left > p:last-child {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+div.action-elements > button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  padding: 0px 30px;
+}
